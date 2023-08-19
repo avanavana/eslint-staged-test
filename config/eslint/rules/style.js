@@ -86,7 +86,10 @@ module.exports = {
       }
     ],
     'no-uneeded-ternary': [
-      'error'
+      'error',
+      {
+        defaultAssignment: true
+      }
     ],
     'computed-property-spacing': [
       'error',
